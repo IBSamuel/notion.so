@@ -1,0 +1,23 @@
+/* .h1s{
+    font-size: 70px;
+    font-weight: bold;
+    color: black;
+} */
+.black{
+    color: black;
+}
+.blackBackground{
+    background-color: black;
+}
+.h1s {
+    font-size: 70px; /* Default font size */
+    font-weight: bold;
+    color: black;
+}
+
+@media screen and (max-width: 1023px) {
+    /* Apply styles for screens with a width between 768px and 1023px */
+    .h1s {
+        font-size: 30px; /* Adjust the font size for screens between 768px and 1023px */
+    }
+}

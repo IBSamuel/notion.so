@@ -14,8 +14,20 @@ const SectionFive = () => {
                 <div className='col-lg-5 col-sm-12' ><img className='' src="https://www.notion.so/cdn-cgi/image/format=webp,width=256/front-static/pages/home/giant-pencil-illustration.png" alt="" />
 </div>
 <div className='text-center mx-auto w-75'>
-    <img className='w-50' src="https://www.notion.so/cdn-cgi/image/format=webp,width=640/front-static/pages/home/tools-strikethrough-V2.png" alt="" />
-    <img src="https://www.notion.so/cdn-cgi/image/format=webp,width=640/front-static/pages/home/tools-strikethrough-V2.png" alt="" />
+    <div className="container">
+      <div className="row">
+        <div className="col">
+          <img className='w-50' src="https://www.notion.so/cdn-cgi/image/format=webp,width=640/front-static/pages/home/tools-strikethrough-V2.png" alt="" />
+        </div>
+      </div>
+      <div className="row">
+        <div className="col">
+          <img src="https://www.notion.so/cdn-cgi/image/format=webp,width=640/front-static/pages/home/tools-before-notion-V2.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+
 </div>
 <p className='text-center mx-auto h2 w-75'>
 "We got rid of nearly a dozen different tools because of what Notion does for us."</p>

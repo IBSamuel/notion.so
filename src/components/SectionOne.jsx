@@ -1,16 +1,21 @@
 import React from 'react'
-
+import "../styles/SectionOne.css"
 const SectionOne = () => {
   return (
     <>
         <section>
             <div className='text-center'>
-                <p className='h1'>New Year,new plans.</p>
-                <p>Your workspace to write, organize, and collaborate. With AI by your side.</p>
-                <span className='p-1 rounded bg-dark text-white fw-semibold'>Get Notion free 
-                <span className='fwbold'>→</span> </span>
-                <div className='w-50 m-4 mx-auto'>
-                    <img className='w-100' src="https://www.notion.so/cdn-cgi/image/format=webp,width=3840/https://images.ctfassets.net/spoqsaf9291f/3aQs9PTDRM8Rj1gIQfNGeG/a0af6bf6ad27e40abfd0c6fb35dcb825/hero_xmas-rev.png" alt="" />
+                <p className='h1s'>Write, plan, share. <br />With AI at your side.</p>
+                <p className='black h3'>Notion is the connected workspace where better, faster work happens.</p>
+                <br />
+                <br />
+                <span className='blackBackground p-2 rounded text-light fw-semibold h5'>Get Notion free 
+                 </span><span className='text-primary h5'>Request a demo →</span>
+                 <br />
+                 <br />
+                 <br />
+                <div className=' mx-auto'>
+                    <img className='w-50' src="https://www.notion.so/cdn-cgi/image/format=webp,width=2048/https://images.ctfassets.net/spoqsaf9291f/4qPZTqxXRCDQiimE4c9xXc/eb57558f50ee6fac68dc04e3b5099c8a/home-hero.png" alt="" />
                 </div>
             </div>
         </section>
